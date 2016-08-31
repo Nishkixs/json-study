@@ -38,7 +38,15 @@ As it makes sense to you please write the following in JSON format:
 -   Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
 ```json
-<!-- your answer here -->
+{
+    "Jason": {
+        "Cat": "Mr.Kitty"}
+		 {"Roomates":Dave,Miller}
+      { "Love": "Patriots,Red Sox, Bruins"}
+			{"Lived": {
+                "Adresses": {
+                    "Address1": "124 Fake Street",
+                    "Address2": "124 I hope this is right road"}}}}
 ```
 
 I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
@@ -46,7 +54,27 @@ other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
 ```json
-<!-- your answer here -->
+var obj{
+    "Jason": {
+      "Pets":{
+        "Cat": "Mr.Kitty"{
+        "Gold Fish":{
+          "Names":{
+          "Bob":"red",
+          "Mr.MagicnNibbles":"yellow"}}}}
+
+
+		 {"Roomates":"Dave","Miller"}
+      { "Love": "Patriots,Red Sox, Bruins"}
+			{"Lived": {
+                "Adresses": {
+                    "Address1": "124 Fake Street",
+                    "Address2": "124 I hope this is right road"
+                  }
+                  }
+                  }
+                  }
+                }
 ```
 
 ## JSON Methods
@@ -54,7 +82,7 @@ already wrote and include the information about Dave's fish.
 Using the JSON your wrote above, can you write a method on the JSON?
 
 ```json
-<!-- your answer here -->
+var obj = JSON.parse(text);
 ```
 
 ## JSON Comments
@@ -62,5 +90,5 @@ Using the JSON your wrote above, can you write a method on the JSON?
 Using the JSON your wrote above, can you write a comment in the JSON?
 
 ```json
-<!-- your answer here -->
+No comments are not supported in JSON
 ```
